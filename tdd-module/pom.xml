@@ -8,5 +8,28 @@
     <artifactId>tdd-module</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+
+    </properties>
+
+    <dependencies>
+        <!-- JUnit Jupiter API for writing tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version> <!-- or the latest version -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JUnit Jupiter Engine to run the tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.2</version> <!-- or the latest version -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
